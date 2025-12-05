@@ -98,7 +98,7 @@ export function OfferSection() {
             <div className="flex items-center gap-2 mb-4">
               <Gift className="w-5 h-5 text-gold" />
               <h4 className="font-bold text-navy text-sm">
-                相談者限定で3つの特典をプレゼント
+                相談者限定で4つの特典をプレゼント
               </h4>
             </div>
 

@@ -72,25 +72,34 @@ export const CONTENT = {
       period: "月間",
       reason: "私も現場に出ているため、これが限界です",
     },
-    // 相談者限定の特典
+    // 相談者限定の特典（4つのPDF）
     bonuses: [
       {
         id: "seminar",
-        title: "お仕事説明会サンプル",
-        description: "採用イベントでそのまま使える説明会資料のテンプレート。",
+        title: "お仕事説明会資料の重要性",
+        description: "採用成功の鍵を握る説明会資料の作り方と活用法。",
+        url: "https://drive.google.com/file/d/1DmJknRxQNPhTkA9xu4KyOBqMs_BPePU4/view?usp=sharing",
       },
       {
         id: "sales",
-        title: "営業トークサンプル",
-        description: "ケアマネ・医療機関への営業で成果が出ているトークスクリプト。",
+        title: "営業トークスクリプト",
+        description: "ケアマネ・医療機関への営業で成果が出ているトーク集。",
+        url: "https://drive.google.com/file/d/1qtKlw-XzJYTcKYOP6aYeLoYcE8msgeG7/view?usp=sharing",
       },
       {
-        id: "visit",
-        title: "訪問同行指導テンプレート",
-        description: "新人スタッフの訪問同行時に使える指導チェックリスト。",
+        id: "cost",
+        title: "新人入職コストについて",
+        description: "採用〜戦力化までのコストを可視化した分析資料。",
+        url: "https://drive.google.com/file/d/1t6qVcVLF6SAY9Aueuc2DLwSHVzst3q9k/view?usp=sharing",
+      },
+      {
+        id: "hr",
+        title: "人事考課の考え方について",
+        description: "スタッフの評価制度と運用のポイントをまとめた資料。",
+        url: "https://drive.google.com/file/d/12bf9Fn2g0toLwroanrsOcExHKwbS_2wb/view?usp=sharing",
       },
     ],
-    bonusNote: "※ 上記3点は相談を受けた方だけにお渡ししています",
+    bonusNote: "※ 上記4点は相談を受けた方だけにお渡ししています",
     cta: {
       primary: "無料で作戦会議を予約する",
       footer: "無料で作戦会議を予約する 📅",

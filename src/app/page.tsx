@@ -8,3 +8,4 @@ export default function Home() {
   redirect("/special-offer");
 }
 
+
