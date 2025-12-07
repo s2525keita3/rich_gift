@@ -10,8 +10,8 @@ export const SITE_CONFIG = {
   copyright: "© 2025 じょん. All rights reserved.",
 
   links: {
-    // PDF ダウンロードURL（実際のURLに変更してください）
-    pdfDownload: "https://example.com/roadmap.pdf",
+    // PDF ダウンロードURL
+    pdfDownload: "https://drive.google.com/file/d/1z4XogmcCMKWEmi5pbFbjOJqw1nLft6Yk/view?usp=drive_link",
     // 無料相談予約URL
     consultation: "https://timerex.net/s/john_houmonkango/04e50b7d",
     // メインサイト
