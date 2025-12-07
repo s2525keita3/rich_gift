@@ -11,7 +11,7 @@ export const SITE_CONFIG = {
 
   links: {
     // PDF ダウンロードURL
-    pdfDownload: "https://drive.google.com/file/d/1z4XogmcCMKWEmi5pbFbjOJqw1nLft6Yk/view?usp=drive_link",
+    pdfDownload: "https://drive.google.com/file/d/1tvq0fXFAT_FGe8dFvOjtkVA89eji8kMI/view?usp=sharing",
     // 無料相談予約URL
     consultation: "https://timerex.net/s/john_houmonkango/04e50b7d",
     // メインサイト
