@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { CheckCircle, AlertCircle, Map, Compass } from "lucide-react";
+import { CheckCircle, AlertCircle } from "lucide-react";
 import { CONTENT } from "@/config/content";
 import { staggerContainer, staggerItem } from "@/lib/animations";
 
@@ -44,12 +44,9 @@ export function BridgeSection() {
           <div className="space-y-4">
             {/* 地図 */}
             <div className="bg-white rounded-2xl p-5 shadow-sm border border-slate-100">
-              <div className="flex items-center gap-2 mb-2">
-                <Map className="w-5 h-5 text-slate-400" />
-                <p className="font-bold text-navy text-sm">
-                  {bridge.warning.map.title}
-                </p>
-              </div>
+              <p className="font-bold text-navy text-sm mb-2">
+                {bridge.warning.map.title}
+              </p>
               <p className="text-sm text-slate-600 leading-relaxed">
                 {bridge.warning.map.description}
               </p>
@@ -57,12 +54,9 @@ export function BridgeSection() {
 
             {/* コンパス */}
             <div className="bg-gradient-to-br from-gold/5 to-gold/10 rounded-2xl p-5 border border-gold/20">
-              <div className="flex items-center gap-2 mb-2">
-                <Compass className="w-5 h-5 text-gold" />
-                <p className="font-bold text-navy text-sm">
-                  {bridge.warning.compass.title}
-                </p>
-              </div>
+              <p className="font-bold text-navy text-sm mb-2">
+                {bridge.warning.compass.title}
+              </p>
               <p className="text-sm text-slate-600 leading-relaxed mb-2">
                 {bridge.warning.compass.description}
               </p>

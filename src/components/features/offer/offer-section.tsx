@@ -8,6 +8,7 @@ import {
   CheckCircle,
   Gift,
   FileText,
+  Heart,
 } from "lucide-react";
 import { CONTENT } from "@/config/content";
 import { SITE_CONFIG } from "@/config/site";
@@ -123,6 +124,21 @@ export function OfferSection() {
 
             <p className="text-xs text-slate-500 mt-4 text-center">
               {offer.bonusNote}
+            </p>
+          </div>
+        </motion.div>
+
+        {/* なぜ無料なのか */}
+        <motion.div variants={staggerItem}>
+          <div className="bg-slate-50 rounded-2xl p-5 mb-8 border border-slate-100">
+            <div className="flex items-center gap-2 mb-3">
+              <Heart className="w-5 h-5 text-red-500" />
+              <h4 className="font-bold text-navy text-sm">
+                {offer.whyFree.title}
+              </h4>
+            </div>
+            <p className="text-sm text-slate-600 leading-relaxed">
+              {offer.whyFree.content}
             </p>
           </div>
         </motion.div>

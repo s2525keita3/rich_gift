@@ -78,14 +78,11 @@ export function HeroSection() {
 
               <FileText className="w-12 h-12 text-white/15 mb-3" />
               <p className="text-white text-center font-bold text-xs leading-relaxed">
-                年商5億の
+                1億円店舗・多店舗展開
                 <br />
                 訪問看護
                 <br />
                 ロードマップ
-              </p>
-              <p className="text-gold text-[10px] mt-2 font-medium">
-                〜 復刻版 〜
               </p>
 
               {/* 非売品タグ */}

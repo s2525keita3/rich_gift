@@ -11,11 +11,14 @@ const notoSansJP = Noto_Sans_JP({
 });
 
 export const metadata: Metadata = {
-  title: "年商5億の訪問看護ロードマップ | 特別オファー",
+  title: "1億円店舗の作り方・多店舗展開のロードマップ",
   description: SITE_CONFIG.description,
+  icons: {
+    icon: "/JNHClogo-greenback-logo.png",
+  },
   openGraph: {
-    title: "年商5億の訪問看護ロードマップ（復刻版）",
-    description: "失敗する前に、この地図を手に入れてください。年商5億の訪問看護ロードマップを無料でダウンロード。",
+    title: "1億円店舗の作り方・多店舗展開のロードマップ",
+    description: "一度立ち止まって整理しませんか？訪問看護の1億円店舗・多店舗展開ロードマップを無料でダウンロード。",
     type: "website",
   },
 };
